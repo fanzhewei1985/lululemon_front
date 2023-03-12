@@ -1,0 +1,24 @@
+.card-header{
+  h5{
+    font-size:30px;
+    font-weight: bold;
+  }
+  p{
+  //background-color: white;
+  padding:10px 5px;
+  border-radius: 2px;
+    font-size:19px;
+    margin-top:20px;
+    //border:1px solid #dad8d8
+    span{
+      margin-left: 6px;
+    }
+  }
+}
+.save_remove_btn{
+  text-align: center;
+  span{
+  border-bottom: 1px solid lightgray;
+  margin:5px 10px;
+  cursor:pointer;}
+}

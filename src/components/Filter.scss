@@ -1,0 +1,191 @@
+.Filter{
+max-width:25%;
+  background-color: #fff;
+  position:absolute;
+  left:22%;
+  width:280px;
+  padding:0 16px;
+  .filter_header{
+    display:flex;
+    justify-content: space-between;
+    align-items:flex-start;
+  }
+h1{
+  font-size: 28px;
+  font-family: Calibre_Bold;
+}
+  h3{
+    font-size:19px;
+    font-family: Calibre_Bold;
+  }
+  label{
+    font-size:17px;
+    margin-top: 6px;
+  }
+.Colour{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  p{
+    margin-top:4px;
+  }
+.colour_container{
+  display:flex;
+.swatch_container {
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+  border-radius: 50%;
+  display: flex;
+  margin-right:6px;
+  align-items: center;
+  justify-content: center;
+
+  .swatchPic {
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    z-index: 10;
+    margin-right:2px;
+    border:1px lightgray solid;
+  }}}}
+input{
+  margin-right:8px;
+  width:17px;
+  height:17px;
+}
+
+.inputContainer{
+  display:flex;
+  align-items: center;
+}
+.lines{
+  position:relative;
+  right:20px;
+  cursor: pointer;
+  .line1{
+   position:absolute;
+    right:0;
+    //width:16px;
+    //height:2px;
+    //background-color: black;
+  }
+  .line2{
+    position:absolute;
+right:0;
+  }
+  .rotate{
+      //transform: rotate(0deg);
+      animation:rotation 0.3s linear;
+      animation-fill-mode: forwards;
+    }
+    @keyframes rotation{
+      from{transform: rotate(0deg);}
+      to{transform:rotate(90deg)}
+    }
+  .rotateBack{
+    //transform: rotate(90deg);
+    animation:spin 0.3s linear;
+    animation-fill-mode: forwards;
+  }
+  @keyframes spin{
+    from{transform: rotate(90deg);}
+    to{transform:rotate(0deg)}
+  }
+}
+  .hide{
+    display:none;
+  }
+  .restFilters{
+    height:155px;
+    overflow: hidden;
+  }
+  .restFilters_show{
+    height:fit-content;
+    overflow: visible;
+  }
+  .viewMore{
+    margin:10px 0;
+    font-family: Calibre_Light;
+    font-size:17px;
+  }
+  .viewIcon{
+    display:flex;
+  cursor: pointer;
+    align-items: center;
+
+    p{
+      font-size: 17px;
+      margin-right: 3px;
+
+    }
+    .subIcons{
+      font-size:22px;
+      color:gray;
+      position:relative;
+      top:-10px;
+    }
+  }
+}
+
+.filterBtn{
+  display:none;
+
+}
+.closeFilter{
+  display:none;
+}
+.viewItemFilter{
+  display:none;
+}
+
+.womenMen{
+  display:none;
+}
+
+@media only screen and (max-width:900px) {
+
+  .Filter{
+    max-width:100%;
+    position:fixed;
+    width:600px;
+    top:0;
+    left:0;
+    z-index:99;
+    height:100vh;
+    overflow-y: scroll;
+  }
+  .filterH1{
+    display:flex;
+    justify-content: space-between;
+  }
+  .closeFilter{
+    display:block;
+    background-color: transparent;
+    border:none;
+  }
+  .filterBtn{
+    display:block;
+    width:95%;
+    padding:10px;
+    background-color: white;
+    border:1px solid gray;
+   border-radius: 5px;
+   font-family:Calibre_Bold;
+  }
+
+  .viewItemFilter{
+    display:block;
+    width:80%;
+    background-color:black;
+    border-radius: 5px;
+    padding:10px;
+    color:white;
+    font-family: Calibre_Bold;
+    margin:10px auto;
+  }
+  .womenMen{
+    display:block;
+   font-family: Calibre_Bold;
+    margin-top:20px;
+  }
+}

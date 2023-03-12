@@ -1,0 +1,924 @@
+.headerTotal {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Calibre;
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+  width: 100%;
+  padding: 0;
+  background-color: white;
+  margin-bottom: 0;
+}
+.headerTotal a {
+  text-decoration: none;
+  color: black;
+}
+.headerTotal li {
+  list-style-type: none;
+}
+
+.Wrapper {
+  width: 100%;
+  position: relative;
+}
+
+.Top {
+  position: relative;
+  margin-top: 5px;
+  font-family: Calibre_Light;
+}
+
+.Top span {
+  margin-left: 400px;
+  margin-right: 4px;
+}
+
+.Top a {
+  text-decoration: underline black;
+}
+
+.Close {
+  width: 16px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.Middle {
+  background-color: #fafafa;
+}
+.Middle .Wrapper {
+  height: 34px;
+}
+
+.ShortCut {
+  position: absolute;
+  right: 0px;
+  display: flex;
+  justify-content: flex-end;
+  line-height: 34px;
+  width: 40%;
+  font-family: Calibre_Light;
+}
+.ShortCut li {
+  text-align: center;
+}
+.ShortCut a span {
+  margin-left: 10px;
+}
+.ShortCut a:hover {
+  cursor: pointer;
+}
+.ShortCut a:hover span {
+  border-bottom: 1px solid red;
+}
+.ShortCut .Store {
+  margin-right: 10px;
+}
+
+.SpecialFont {
+  width: 14px;
+}
+
+.NavBar {
+  height: 76px;
+}
+
+.Container {
+  position: relative;
+  display: flex;
+}
+.Container .Right_Size {
+  position: absolute;
+  display: flex;
+  right: 5px;
+  width: 315px;
+  flex-basis: 0;
+  align-items: center;
+}
+.Container .Right_Size .Search {
+  position: relative;
+  display: flex;
+}
+.Container .Right_Size .Search .Find {
+  position: absolute;
+  top: 40px;
+  margin-left: 10px;
+}
+.Container .Right_Size .Search .null {
+  margin-top: 22px;
+  width: 40px;
+  height: 50px;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-bottom-left-radius: 0.25rem;
+  border-top-left-radius: 0.25rem;
+}
+.Container .Right_Size .Search input {
+  width: 224px;
+  height: 50px;
+  margin-top: 22px;
+  margin-right: 34px;
+  border: 1px solid black;
+  border-left: none;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+  font-size: 20px;
+}
+.Container .Right_Size .Search input::placeholder {
+  font-size: 20px;
+}
+.Container .Right_Size .Search input:focus {
+  outline: none;
+}
+.Container .Right_Size .Search .Close {
+  position: absolute;
+  top: 38px;
+  right: 42px;
+  font-size: 20px;
+}
+.Container .Right_Size .Shopping {
+  font-size: 20px;
+}
+.Container .Right_Size span {
+  font-size: 16px;
+}
+.Container .GuessWhatLike {
+  position: absolute;
+  width: 264px;
+  height: 316px;
+  right: 100px;
+  top: 80px;
+}
+.Container .GuessWhatLike ul {
+  padding: 17px;
+}
+.Container .GuessWhatLike ul li {
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.Container .GuessWhatLike ul li a:hover {
+  cursor: pointer;
+  border-bottom: 1px solid red;
+}
+.Container .GuessWhatLike ul .Trending_Searches {
+  margin-top: 0px;
+  margin-bottom: 33px;
+}
+
+.Logo {
+  width: 34px;
+  height: 34px;
+}
+.Logo img {
+  object-fit: contain;
+  width: 34px;
+  height: 34px;
+  margin-top: 22px;
+}
+
+.Classification {
+  margin-top: 30px;
+  margin-left: 50px;
+  width: 41%;
+}
+.Classification ul {
+  display: flex;
+  justify-content: space-around;
+}
+.Classification ul li {
+  flex-basis: 0;
+}
+.Classification ul a {
+  font-family: Calibre_Bold;
+  font-size: 18px;
+  text-decoration: none;
+}
+.Classification ul a:hover {
+  cursor: pointer;
+  border-bottom: 3px solid red;
+  color: black;
+}
+.Classification ul .Gifts {
+  color: red;
+}
+.Classification ul .Gifts:hover {
+  border-bottom: 3px solid #af8e3c;
+}
+
+.Disappear {
+  display: none;
+}
+
+.DetailForWomen {
+  padding-top: 20px;
+}
+.DetailForWomen .Wrapper {
+  display: flex;
+  padding-left: 98px;
+}
+.DetailForWomen .Wrapper .left_size {
+  width: 184px;
+  height: 370px;
+  border-right: 1px solid #d5d5d5;
+}
+.DetailForWomen .Wrapper .left_size ul {
+  display: inline-flex;
+  flex-direction: column;
+}
+.DetailForWomen .Wrapper .left_size ul li {
+  margin-bottom: 17px;
+}
+.DetailForWomen .Wrapper .left_size ul li a {
+  font-size: 16px;
+}
+.DetailForWomen .Wrapper .left_size ul li a:hover {
+  border-bottom: 2px solid red;
+}
+.DetailForWomen .Wrapper .middle_size {
+  display: flex;
+  width: 710px;
+  height: 324px;
+  padding-left: 40px;
+}
+.DetailForWomen .Wrapper .middle_size .m_left_size ul li {
+  margin-bottom: 17px;
+}
+.DetailForWomen .Wrapper .middle_size .m_left_size ul li a {
+  font-size: 16px;
+}
+.DetailForWomen .Wrapper .middle_size .m_left_size ul li a:hover {
+  border-bottom: 2px solid red;
+}
+.DetailForWomen .Wrapper .middle_size .m_left_size .Title {
+  font-family: Calibre_Bold;
+}
+.DetailForWomen .Wrapper .middle_size .m_left_size .Title:hover {
+  border-bottom: none;
+}
+.DetailForWomen .Wrapper .middle_size .m_middle_size {
+  padding-top: 37px;
+}
+.DetailForWomen .Wrapper .middle_size .m_middle_size ul li {
+  margin-bottom: 17px;
+}
+.DetailForWomen .Wrapper .middle_size .m_middle_size ul li a {
+  font-size: 16px;
+}
+.DetailForWomen .Wrapper .middle_size .m_middle_size ul li a:hover {
+  border-bottom: 2px solid red;
+}
+.DetailForWomen .Wrapper .middle_size .m_right_size ul li {
+  margin-bottom: 17px;
+}
+.DetailForWomen .Wrapper .middle_size .m_right_size ul li a {
+  font-size: 16px;
+}
+.DetailForWomen .Wrapper .middle_size .m_right_size ul li a:hover {
+  border-bottom: 2px solid red;
+}
+.DetailForWomen .Wrapper .middle_size .m_right_size .Title {
+  font-family: Calibre_Bold;
+}
+.DetailForWomen .Wrapper .middle_size .m_right_size .Title:hover {
+  border-bottom: none;
+}
+.DetailForWomen .Wrapper .right_size {
+  width: 338px;
+  height: 324px;
+}
+.DetailForWomen .Wrapper .right_size h2 {
+  font-family: Calibre_Bold;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.DetailForWomen .Wrapper .right_size .line-2-title {
+  margin-bottom: 10px;
+}
+.DetailForWomen .Wrapper .right_size p {
+  font-size: 16px;
+}
+.DetailForWomen .Wrapper .right_size .line-2-intro {
+  margin-bottom: 10px;
+}
+.DetailForWomen .Wrapper .right_size a {
+  font-family: Calibre_Bold;
+}
+.DetailForWomen .bottom {
+  display: flex;
+  justify-content: space-between;
+  height: 52px;
+  background-color: #fafafa;
+}
+.DetailForWomen .bottom .left_size {
+  width: 20%;
+}
+.DetailForWomen .bottom .left_size span {
+  font-size: 15px;
+  line-height: 54px;
+  padding-left: 130px;
+}
+.DetailForWomen .bottom .middle_size {
+  margin-left: -95px;
+  width: 60%;
+}
+.DetailForWomen .bottom .middle_size ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  line-height: 52px;
+  font-size: 18px;
+}
+.DetailForWomen .bottom .middle_size ul li a:hover {
+  border-bottom: 1px solid red;
+}
+.DetailForWomen .bottom .right_size {
+  line-height: 52px;
+  text-align: center;
+}
+
+.DetailForMen {
+  padding-top: 20px;
+}
+.DetailForMen .Wrapper {
+  display: flex;
+  padding-left: 98px;
+}
+.DetailForMen .Wrapper .left_size {
+  width: 210px;
+  height: 370px;
+  border-right: 1px solid #d5d5d5;
+}
+.DetailForMen .Wrapper .left_size ul {
+  display: inline-flex;
+  flex-direction: column;
+}
+.DetailForMen .Wrapper .left_size ul li {
+  margin-bottom: 17px;
+}
+.DetailForMen .Wrapper .left_size ul li a {
+  font-size: 16px;
+}
+.DetailForMen .Wrapper .left_size ul li a:hover {
+  border-bottom: 2px solid red;
+}
+.DetailForMen .Wrapper .middle_size {
+  display: flex;
+  width: 710px;
+  height: 324px;
+  padding-left: 40px;
+}
+.DetailForMen .Wrapper .middle_size .m_left_size {
+  margin-right: 20px;
+}
+.DetailForMen .Wrapper .middle_size .m_left_size ul li {
+  margin-bottom: 17px;
+}
+.DetailForMen .Wrapper .middle_size .m_left_size ul li a {
+  font-size: 16px;
+}
+.DetailForMen .Wrapper .middle_size .m_left_size ul li a:hover {
+  border-bottom: 2px solid red;
+}
+.DetailForMen .Wrapper .middle_size .m_left_size .Title {
+  font-family: Calibre_Bold;
+}
+.DetailForMen .Wrapper .middle_size .m_left_size .Title:hover {
+  border-bottom: none;
+}
+.DetailForMen .Wrapper .middle_size .m_middle_size {
+  padding-top: 37px;
+  margin-right: 20px;
+}
+.DetailForMen .Wrapper .middle_size .m_middle_size ul li {
+  margin-bottom: 17px;
+}
+.DetailForMen .Wrapper .middle_size .m_middle_size ul li a {
+  font-size: 16px;
+}
+.DetailForMen .Wrapper .middle_size .m_middle_size ul li a:hover {
+  border-bottom: 2px solid red;
+}
+.DetailForMen .Wrapper .middle_size .m_right_size ul li {
+  margin-bottom: 17px;
+}
+.DetailForMen .Wrapper .middle_size .m_right_size ul li a {
+  font-size: 16px;
+}
+.DetailForMen .Wrapper .middle_size .m_right_size ul li a:hover {
+  border-bottom: 2px solid red;
+}
+.DetailForMen .Wrapper .middle_size .m_right_size .Title {
+  font-family: Calibre_Bold;
+}
+.DetailForMen .Wrapper .middle_size .m_right_size .Title:hover {
+  border-bottom: none;
+}
+.DetailForMen .Wrapper .right_size {
+  width: 338px;
+  height: 324px;
+  padding-left: 15px;
+}
+.DetailForMen .Wrapper .right_size h2 {
+  font-family: Calibre_Bold;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+.DetailForMen .Wrapper .right_size .line-2-title {
+  margin-bottom: 0px;
+}
+.DetailForMen .Wrapper .right_size p {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+.DetailForMen .Wrapper .right_size a {
+  font-size: 15px;
+  font-family: Calibre_Bold;
+}
+.DetailForMen .bottom {
+  display: flex;
+  justify-content: space-between;
+  height: 52px;
+  background-color: #fafafa;
+}
+.DetailForMen .bottom .left_size {
+  width: 20%;
+}
+.DetailForMen .bottom .left_size span {
+  font-size: 15px;
+  line-height: 54px;
+  padding-left: 130px;
+}
+.DetailForMen .bottom .middle_size {
+  margin-left: -95px;
+  width: 60%;
+}
+.DetailForMen .bottom .middle_size ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  line-height: 52px;
+  font-size: 18px;
+}
+.DetailForMen .bottom .middle_size ul li a:hover {
+  border-bottom: 1px solid red;
+}
+.DetailForMen .bottom .right_size {
+  line-height: 52px;
+  text-align: center;
+}
+
+.DetailForAccessories {
+  padding-top: 20px;
+}
+.DetailForAccessories .Wrapper {
+  display: flex;
+  padding-left: 98px;
+}
+.DetailForAccessories .Wrapper .left_size {
+  width: 210px;
+  height: 370px;
+  border-right: 1px solid #d5d5d5;
+}
+.DetailForAccessories .Wrapper .left_size ul {
+  display: inline-flex;
+  flex-direction: column;
+}
+.DetailForAccessories .Wrapper .left_size ul li {
+  margin-bottom: 17px;
+}
+.DetailForAccessories .Wrapper .left_size ul li a {
+  font-size: 16px;
+}
+.DetailForAccessories .Wrapper .left_size ul li a:hover {
+  border-bottom: 2px solid red;
+}
+.DetailForAccessories .Wrapper .middle_size {
+  display: flex;
+  width: 710px;
+  height: 324px;
+  padding-left: 40px;
+}
+.DetailForAccessories .Wrapper .middle_size .m_left_size {
+  margin-right: 50px;
+}
+.DetailForAccessories .Wrapper .middle_size .m_left_size ul li {
+  margin-bottom: 17px;
+}
+.DetailForAccessories .Wrapper .middle_size .m_left_size ul li a {
+  font-size: 16px;
+}
+.DetailForAccessories .Wrapper .middle_size .m_left_size ul li a:hover {
+  border-bottom: 2px solid red;
+}
+.DetailForAccessories .Wrapper .middle_size .m_left_size .Title {
+  font-family: Calibre_Bold;
+}
+.DetailForAccessories .Wrapper .middle_size .m_left_size .Title:hover {
+  border-bottom: none;
+}
+.DetailForAccessories .Wrapper .middle_size .m_middle_size {
+  padding-top: 37px;
+  margin-right: 20px;
+}
+.DetailForAccessories .Wrapper .middle_size .m_middle_size ul li {
+  margin-bottom: 17px;
+}
+.DetailForAccessories .Wrapper .middle_size .m_middle_size ul li a {
+  font-size: 16px;
+}
+.DetailForAccessories .Wrapper .middle_size .m_middle_size ul li a:hover {
+  border-bottom: 2px solid red;
+}
+.DetailForAccessories .Wrapper .middle_size .m_right_size ul li {
+  margin-bottom: 17px;
+}
+.DetailForAccessories .Wrapper .middle_size .m_right_size ul li a {
+  font-size: 16px;
+}
+.DetailForAccessories .Wrapper .middle_size .m_right_size ul li a:hover {
+  border-bottom: 2px solid red;
+}
+.DetailForAccessories .Wrapper .middle_size .m_right_size .Title {
+  font-family: Calibre_Bold;
+}
+.DetailForAccessories .Wrapper .middle_size .m_right_size .Title:hover {
+  border-bottom: none;
+}
+.DetailForAccessories .Wrapper .right_size {
+  width: 338px;
+  height: 324px;
+  padding-left: 15px;
+}
+.DetailForAccessories .Wrapper .right_size h2 {
+  font-family: Calibre_Bold;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+.DetailForAccessories .Wrapper .right_size .line-2-title {
+  margin-bottom: 0px;
+}
+.DetailForAccessories .Wrapper .right_size p {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+.DetailForAccessories .Wrapper .right_size a {
+  font-size: 15px;
+  font-family: Calibre_Bold;
+}
+.DetailForAccessories .bottom {
+  display: flex;
+  justify-content: space-between;
+  height: 52px;
+  background-color: #fafafa;
+  margin-top: 20px;
+}
+.DetailForAccessories .bottom .left_size {
+  width: 20%;
+}
+.DetailForAccessories .bottom .left_size span {
+  font-size: 15px;
+  line-height: 54px;
+  padding-left: 130px;
+}
+.DetailForAccessories .bottom .middle_size {
+  margin-left: -90px;
+  width: 60%;
+}
+.DetailForAccessories .bottom .middle_size ul {
+  display: flex;
+  margin-left: 30px;
+  width: 100%;
+  line-height: 52px;
+  font-size: 18px;
+}
+.DetailForAccessories .bottom .middle_size ul li {
+  margin-right: 60px;
+}
+.DetailForAccessories .bottom .middle_size ul li a:hover {
+  border-bottom: 1px solid red;
+}
+.DetailForAccessories .bottom .right_size {
+  line-height: 52px;
+  text-align: center;
+}
+
+.DetailForGifts {
+  padding-top: 20px;
+}
+.DetailForGifts .Wrapper {
+  display: flex;
+  padding-left: 98px;
+}
+.DetailForGifts .Wrapper .left_size {
+  width: 210px;
+  height: 370px;
+  border-right: 1px solid #d5d5d5;
+}
+.DetailForGifts .Wrapper .left_size ul {
+  display: inline-flex;
+  flex-direction: column;
+}
+.DetailForGifts .Wrapper .left_size ul li {
+  margin-bottom: 17px;
+}
+.DetailForGifts .Wrapper .left_size ul li a {
+  font-size: 16px;
+}
+.DetailForGifts .Wrapper .left_size ul li a:hover {
+  border-bottom: 2px solid red;
+}
+.DetailForGifts .Wrapper .middle_size {
+  display: flex;
+  width: 710px;
+  height: 324px;
+  padding-left: 40px;
+}
+.DetailForGifts .Wrapper .middle_size .m_left_size {
+  margin-right: 20px;
+}
+.DetailForGifts .Wrapper .middle_size .m_left_size ul li {
+  margin-bottom: 17px;
+}
+.DetailForGifts .Wrapper .middle_size .m_left_size ul li a {
+  font-size: 16px;
+}
+.DetailForGifts .Wrapper .middle_size .m_left_size ul li a:hover {
+  border-bottom: 2px solid red;
+}
+.DetailForGifts .Wrapper .middle_size .m_left_size .Title {
+  font-family: Calibre_Bold;
+}
+.DetailForGifts .Wrapper .middle_size .m_left_size .Title:hover {
+  border-bottom: none;
+}
+.DetailForGifts .Wrapper .middle_size .m_middle_size {
+  padding-top: 37px;
+  margin-right: 20px;
+}
+.DetailForGifts .Wrapper .middle_size .m_middle_size ul li {
+  margin-bottom: 17px;
+}
+.DetailForGifts .Wrapper .middle_size .m_middle_size ul li a {
+  font-size: 16px;
+}
+.DetailForGifts .Wrapper .middle_size .m_middle_size ul li a:hover {
+  border-bottom: 2px solid red;
+}
+.DetailForGifts .Wrapper .middle_size .m_right_size ul li {
+  margin-bottom: 17px;
+}
+.DetailForGifts .Wrapper .middle_size .m_right_size ul li a {
+  font-size: 16px;
+}
+.DetailForGifts .Wrapper .middle_size .m_right_size ul li a:hover {
+  border-bottom: 2px solid red;
+}
+.DetailForGifts .Wrapper .middle_size .m_right_size .Title {
+  font-family: Calibre_Bold;
+}
+.DetailForGifts .Wrapper .middle_size .m_right_size .Title:hover {
+  border-bottom: none;
+}
+.DetailForGifts .Wrapper .right_size {
+  width: 338px;
+  height: 324px;
+  padding-left: 15px;
+}
+.DetailForGifts .Wrapper .right_size h2 {
+  font-family: Calibre_Bold;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+.DetailForGifts .Wrapper .right_size .line-2-title {
+  margin-bottom: 0px;
+}
+.DetailForGifts .Wrapper .right_size p {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+.DetailForGifts .Wrapper .right_size a {
+  font-size: 15px;
+  font-family: Calibre_Bold;
+}
+.DetailForGifts .bottom {
+  display: flex;
+  justify-content: space-between;
+  height: 52px;
+  background-color: #fafafa;
+}
+.DetailForGifts .bottom .left_size {
+  width: 20%;
+}
+.DetailForGifts .bottom .left_size span {
+  font-size: 15px;
+  line-height: 54px;
+  padding-left: 130px;
+}
+.DetailForGifts .bottom .middle_size {
+  margin-left: -95px;
+  width: 60%;
+}
+.DetailForGifts .bottom .middle_size ul {
+  display: flex;
+  width: 100%;
+  line-height: 52px;
+  font-size: 18px;
+}
+.DetailForGifts .bottom .middle_size ul li {
+  margin-right: 60px;
+}
+.DetailForGifts .bottom .middle_size ul li a:hover {
+  border-bottom: 1px solid red;
+}
+.DetailForGifts .bottom .right_size {
+  line-height: 52px;
+  text-align: center;
+}
+
+.burgerMenu {
+  display: none;
+}
+
+.menuCloseBtn {
+  display: none;
+}
+
+.LogoInside {
+  display: none;
+}
+
+.nextBtn {
+  display: none;
+}
+
+.dropbtn {
+  color: white;
+  padding: 8px 0 2px 0;
+  font-size: 16px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  margin-top: 8px;
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: white;
+  min-width: 350px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+  z-index: 99;
+  padding: 20px;
+}
+.dropdown-content h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.dropdown-content img {
+  margin-right: 15px;
+  width: 70px;
+  height: 85px;
+  border-radius: 3px;
+}
+.dropdown-content .dataInCheckout {
+  display: flex;
+  height: 100px;
+}
+.dropdown-content .dataInCheckout .productInfo {
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+}
+.dropdown-content .dataInCheckout .productInfo .price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropdown-content:after {
+  content: ""; /* Required to display content */
+  position: absolute; /* Sets the position absolute to the top div */
+  top: 0;
+  left: 95%; /* position the little arrow */
+  margin-left: -15px;
+  margin-top: -15px; /* Set margin equal to border px */
+  width: 0;
+  z-index: 1;
+  height: 0;
+  border-bottom: solid 15px #FFF; /* Creates the arrow pointing up, to change to a notch instead user border-top */
+  border-left: solid 15px transparent; /* Creates triangle effect */
+  border-right: solid 15px transparent; /* Creates triangle effect */
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media only screen and (max-width: 900px) {
+  .headerTotal {
+    position: relative;
+  }
+  .headerTotal .ShortCut {
+    right: 9%;
+  }
+  .headerTotal .ShortCut li {
+    margin: 0 15px;
+  }
+  .headerTotal .burgerMenu {
+    display: block;
+    position: absolute;
+    right: 20px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    transform: translateY(10%);
+  }
+  .headerTotal .Store span {
+    display: none;
+  }
+  .headerTotal .Classification {
+    transform: translateX(-250%);
+  }
+  .headerTotal .no_Classification {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 99;
+    background-color: white;
+  }
+  .headerTotal .no_Classification ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    z-index: 100;
+    margin-top: 20px;
+  }
+  .headerTotal .no_Classification ul li {
+    border-bottom: solid 1px lightgray;
+    width: 100%;
+    font-family: Calibre_Bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+  }
+  .headerTotal .no_Classification ul li li:hover {
+    color: black;
+  }
+  .menuCloseBtn {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+  }
+  .LogoInside {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    padding: 20px;
+  }
+  .LogoInside img {
+    object-fit: contain;
+    width: 34px;
+    height: 34px;
+    margin-left: 10px;
+  }
+  .Container .Right_Size {
+    width: 70%;
+    right: 100px;
+  }
+  .Container .Right_Size .Search input {
+    width: 600px;
+  }
+  .nextBtn {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=Header.css.map */

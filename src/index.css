@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Calibre';
+    src: local('Calibre'),url("./fonts/CalibreRegular.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Calibre_Bold';
+    src:local('Calibre Bold'),url("./fonts/CalibreBold.otf");
+}
+
+@font-face {
+    font-family: 'Calibre_Light';
+    src:local('Calibre Light'),url("./fonts/CalibreLight.otf");
+}
+
+body {
+  margin:0;
+  box-sizing: border-box;
+    width:100vw;
+    background-color:#fafafa;
+  font-family: 'Calibre';
+  /*font-weight: normal;*/
+  font-style: normal;
+}
+
+.modal-open{
+    overflow-y: hidden;
+    /*top:px;*/
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+

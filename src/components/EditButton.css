@@ -1,0 +1,113 @@
+.editImage {
+  height: 600px;
+}
+.editImage div .arrow {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  font-weight: lighter;
+}
+.editImage div .Left_Right_Arrow {
+  position: relative;
+  top: 275px;
+}
+.editImage div .Left_Right_Arrow .left-arrow {
+  position: absolute;
+  left: 10px;
+}
+.editImage div .Left_Right_Arrow .right-arrow {
+  position: absolute;
+  right: 10px;
+}
+.editImage img {
+  height: 596px;
+}
+
+.edit {
+  display: flex;
+  flex-direction: row;
+}
+.edit .left {
+  width: 50%;
+  height: 100%;
+}
+.edit .right {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.edit .right h3 {
+  font-size: 23px;
+}
+.edit .right .sizes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.edit .right .sizes .size {
+  width: 34px;
+  height: 34px;
+  margin: 5px;
+  text-align: center;
+  line-height: 30px;
+  color: black;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.edit .right .sizes .size_checked {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.color {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0 20px 0;
+  flex-wrap: wrap;
+}
+.color img {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
+.color img:hover {
+  cursor: pointer;
+}
+.color .eachColor {
+  height: 42px;
+  width: 42px;
+  border: 2px solid black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+.color .noColor {
+  border: 2px solid transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+}
+
+.update {
+  width: 90%;
+  margin: 10px 5px 10px 8px;
+}
+
+.View {
+  width: 50%;
+  margin: 10px 70px 10px 130px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=EditButton.css.map */

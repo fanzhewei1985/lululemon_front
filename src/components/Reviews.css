@@ -1,0 +1,269 @@
+.Product_Reviews {
+  padding: 10px;
+}
+.Product_Reviews .reviews_Top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+.Product_Reviews .boxes {
+  width: 72%;
+  display: flex;
+}
+.Product_Reviews .box_left {
+  width: 25%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Product_Reviews .box_left h2 {
+  font-size: 56px;
+  font-weight: bolder;
+}
+.Product_Reviews .box_left .filter_review {
+  font-weight: bolder;
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+.Product_Reviews .box {
+  width: 33%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Product_Reviews .box .aveStars {
+  display: flex;
+  align-items: baseline;
+}
+.Product_Reviews .box .Showing {
+  margin-bottom: 10px;
+}
+.Product_Reviews .box .selections {
+  margin-bottom: 10px;
+}
+.Product_Reviews .box .selections select {
+  border: none;
+  background: transparent;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+.Product_Reviews .box h3 {
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+.Product_Reviews .box p {
+  font-family: Calibre_Light;
+  font-weight: lighter;
+}
+.Product_Reviews .box Button {
+  background-color: black;
+  padding: 15px 0;
+  font-weight: bolder;
+}
+
+.reviews_Container {
+  display: flex;
+  justify-content: space-between;
+}
+.reviews_Container .review_Left {
+  width: 25%;
+}
+.reviews_Container .review_Left .input-group {
+  position: relative;
+  font-size: 14px;
+}
+.reviews_Container .review_Left .input-group .searchIcon {
+  position: absolute;
+  top: 35%;
+  right: 5%;
+}
+.reviews_Container .review_Left .Rating {
+  background-color: white;
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 19px;
+}
+.reviews_Container .review_Left .Rating label {
+  margin-left: 8px;
+}
+.reviews_Container .review_Left .Rating label span {
+  margin-left: 15px;
+  font-family: Calibre_Light;
+  font-size: 17px;
+}
+.reviews_Container .review_Left .Rating input {
+  width: 16px;
+  height: 16px;
+}
+.reviews_Container .reviews_Right {
+  width: 72%;
+}
+.reviews_Container .reviews_Right .each_review {
+  margin: 15px 2px;
+  background: white;
+  padding: 20px;
+}
+
+.NavTab {
+  border-radius: 5px;
+  position: fixed;
+  width: 1000px;
+  height: 690px;
+  top: 10%;
+  left: 20%;
+  background: white;
+  z-index: 100;
+  display: flex;
+}
+.NavTab .closeBtn {
+  background: transparent;
+  border: none;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.NavTab_right {
+  width: 50%;
+  font-size: 18px;
+  padding: 30px;
+  overflow-y: scroll;
+}
+.NavTab_right .NavTab_Top {
+  display: flex;
+  justify-content: space-between;
+}
+.NavTab_right .NavTab_Top h3 {
+  font-family: Calibre_Bold;
+  font-size: 30px;
+  margin-bottom: 35px;
+}
+.NavTab_right .note {
+  font-family: Calibre_Light;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.NavTab_left {
+  width: 50%;
+}
+.NavTab_left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.capital {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: #77787a;
+  padding: 8px;
+  margin-right: 5px;
+  color: white;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.capital span {
+  transform: translateY(12%);
+}
+
+.comments_top {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 14px;
+  align-items: center;
+}
+.comments_top .reviewer_name {
+  margin: 0 5px;
+  transform: translateY(-30%);
+}
+.comments_top .review_time {
+  font-family: Calibre_Light;
+  transform: translateY(-30%);
+}
+
+.star {
+  line-height: 5px;
+}
+
+.reviewer_size {
+  display: flex;
+  font-size: 13px;
+}
+.reviewer_size p {
+  margin-right: 20px;
+}
+.reviewer_size p span {
+  font-family: Calibre_Light;
+}
+
+.review_title {
+  margin: 8px 0;
+  font-size: 24px;
+}
+
+.review_content {
+  font-size: 19px;
+  line-height: 1.625rem;
+  font-weight: 400;
+}
+
+.review_icons {
+  display: flex;
+}
+.review_icons .icon {
+  margin: 0 20px;
+  font-family: Calibre_Light;
+  font-size: 14px;
+}
+
+.radio_container .radio {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 6px;
+  background-color: #cbccd5;
+  margin-right: 2px;
+}
+.radio_container .radio:focus {
+  background-color: #d31334;
+}
+
+.reviewPic img {
+  width: 165px;
+  height: 165px;
+  object-fit: cover;
+}
+
+.Review_Text {
+  margin-top: 15px;
+}
+.Review_Text .textContainer {
+  position: relative;
+}
+.Review_Text .textContainer p {
+  position: absolute;
+  right: 1%;
+  bottom: 0;
+  font-size: 11px;
+  color: red;
+}
+
+.guidelines {
+  display: flex;
+  justify-content: space-between;
+}
+.guidelines p {
+  margin-bottom: 0;
+}
+
+.guides {
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=Reviews.css.map */

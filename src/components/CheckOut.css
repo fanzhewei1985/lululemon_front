@@ -1,0 +1,131 @@
+.maincontainer {
+  margin: 30px;
+}
+.maincontainer hr {
+  margin: 10px 0 15px 0;
+}
+.maincontainer h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.general {
+  background-color: white;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  padding: 20px 30px;
+  border: 1px solid #e0dfdf;
+}
+
+.title {
+  padding: 20px 0;
+  margin-top: 10px;
+}
+.title h2 {
+  font-size: 40px;
+  font-family: Calibre_Bold;
+  text-align: center;
+}
+.title .title_alert {
+  padding: 15px;
+  border: 0.0625rem solid #efc100;
+  background-color: #fcf3cc;
+}
+
+.shipInfo {
+  padding-bottom: 50px;
+}
+
+.logIn_controller {
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.logIn_input {
+  display: flex;
+  justify-content: space-between;
+}
+.logIn_input div {
+  width: 45%;
+}
+
+.register {
+  margin-bottom: 0;
+}
+
+.remember {
+  display: flex;
+}
+
+.label {
+  margin-bottom: 0;
+}
+
+.rightPart {
+  padding: 15px;
+}
+
+.dataInCheckout {
+  padding: 0 10px;
+  display: flex;
+  height: 100px;
+  width: 100%;
+  justify-content: space-between;
+}
+.dataInCheckout h6 {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+}
+.dataInCheckout img {
+  width: 70px;
+  height: 85px;
+}
+.dataInCheckout p {
+  font-size: 17px;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+  font-family: Calibre_Light;
+}
+.dataInCheckout .productInfo {
+  display: flex;
+  flex-direction: column;
+}
+.dataInCheckout .productInfo .price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexBox {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+  padding: 0 15px;
+}
+
+.topBox {
+  line-height: 15px;
+  font-size: 20px;
+}
+
+.checkoutBtn {
+  text-align: right;
+}
+.checkoutBtn button {
+  width: 40%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0;
+}
+.checkoutBtn p {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=CheckOut.css.map */
