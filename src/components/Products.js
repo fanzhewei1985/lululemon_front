@@ -61,7 +61,7 @@ const Products = ({fun}) => {
             return newState
         })
     }
-    console.log(products)
+//     console.log(products)
     const btnArray = Object.keys(filter).map(key => filter[key].filter(arr => arr.isChecked))
 
 
