@@ -21,11 +21,11 @@ const CheckOut = () => {
     const [submit, setSubmit] = useState(false)
     const [checkedBox,setCheckedBox]=useState(false)
     const [shipInfo,setShipInfo]=useState({first:'',last:'',phone:'',street:'',city:'',province:'',zip:''})
-    console.log(shipInfo)
+//     console.log(shipInfo)
     const dispatch = useDispatch()
     const token = useSelector(state => state.productReducer.token)
     localStorage.setItem('token',JSON.stringify(token))
-    console.log(token)
+//     console.log(token)
     const loginFail=useSelector(state=>state.productReducer.logInFail)
     const loginSuccess=useSelector(state=>state.productReducer.logInSuccess)
     const bagData = useSelector(state => state.productReducer.bagData)
@@ -35,7 +35,7 @@ const CheckOut = () => {
         colorId: arr.colorId,
         size: arr.size
     }))
-    console.log(JSON.stringify(shipInfo))
+//     console.log(JSON.stringify(shipInfo))
     const [orderId]=useState(new Date().getTime())
     const totalPrice = bagData.reduce((current, next) => current * 1 + next.price?.match(/\d+/)[0] * next.quantity, 0)
     const [orderSuc, setOrderSuc] = useState({})
