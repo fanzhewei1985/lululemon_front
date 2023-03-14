@@ -32,7 +32,7 @@ const Filter = ({child}) => {
             }})
         rotateRefs.current.forEach((ref, i) => {
                 if (i === index) {
-                    console.log(ref.current.className)
+//                     console.log(ref.current.className)
                     if (ref.current.className.includes('rotateBack')) {
                         ref.current.className = 'rotate'
                     } else if (!ref.current.className.includes('rotateBack')) {
